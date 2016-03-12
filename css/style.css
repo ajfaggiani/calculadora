@@ -1,0 +1,70 @@
+#calculator {
+	width: 280px
+}
+
+.color-tablero {
+	background-color: rgb(115, 218, 235);
+	color: #FFFFFF;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 25px;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.boton {
+	float:left;
+	padding: 6px 12px;
+	margin: 0;
+	font-size: 1.25em;
+	text-align: center;
+	cursor: pointer;
+	border:1px solid transparent;
+	outline: none;
+	color: #fff;
+	width: 70px;
+	height: 70px;
+}
+
+.boton-funciones {
+	height: 56px;
+}
+
+.boton-funciones {
+	background: #666666;
+	transition: background 1s;
+
+}
+
+.boton-funciones:hover {
+	background: #FF0000;
+}
+
+.boton-numeros {
+	background: #4c4c4c;
+	transition: background 1s;
+}
+
+.boton-numeros:hover {
+	background: #49ff00;
+}
+
+.operation {
+	font-size: 35px;
+}
+
+.iqual {
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.result {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 55px;
+}
+
+
